@@ -10,7 +10,7 @@ package offer;
  *            p1指向原始字符串的末尾，p2指向替换后的字符串末尾，如图和代码注释分析：
  * Created by dennis on 2018/3/22.
  */
-public class ReplaceBlank {
+public class Problem4ReplaceBlank {
 
     public static void replace(char[] string, int length) {
         if (string == null || length < 0) {

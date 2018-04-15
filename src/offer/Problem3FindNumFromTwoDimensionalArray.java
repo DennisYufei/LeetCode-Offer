@@ -11,7 +11,7 @@ package offer;
  * 如果该数字大于x，剔除这个数字所在的列;如果该数字小于x，剔除这个数字所在的行。 
  * 这样每一步都可以缩小查找的范围，直到找到要查找的数字，或者查找范围为空。 
  */
-public class FindNumFromTwoDimensionalArray {
+public class Problem3FindNumFromTwoDimensionalArray {
 	
 	public static boolean find(int[][] nums, int target) {
 //		judge array is null or not 
