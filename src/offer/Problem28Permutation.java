@@ -4,7 +4,6 @@ package offer;
  * 面试题28：字符串的排列，给一个字符串打印出来所有排列
  * 思路：1、首先求出所有可能出现在第一个位置的字符，把第一个字符和后面所有的字符交换
  *      2、固定第一个字符，从第二个字符开始与后面交换，是个递归的过程
- * 扩展：用treeSet解决了aaa字符串重复问题（剑指offer解法未解决）
  * Created by Dennis on 2018/6/24.
  */
 public class Problem28Permutation {
