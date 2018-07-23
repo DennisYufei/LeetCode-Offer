@@ -12,7 +12,7 @@ public class Problem5PrintListReverse {
 
     //非递归实现
     public void printListReverse1(ListNode headNode){
-        Stack<ListNode> stack = new Stack<>();
+        Stack<ListNode> stack = new Stack();
         while (headNode != null){
             stack.push(headNode);
             headNode = headNode.next;
