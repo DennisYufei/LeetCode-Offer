@@ -2,11 +2,11 @@ package Leetcode;
 
 /**
  * 题意：最低价买进，最高价卖出，一次买入和卖出，求最大利润
- *
+ * 思路：1、brute force蛮力法，两个for循环不断比较
+ *      2、双指针法，用一个min来保存买进的最低价，一个res来保存当天的价格减去最低价，也就是最大利润
  * @auther Dennis
  * @date 2017/12/13
- * 思想：1、brute force蛮力法，两个for循环不断比较
- *      2、双指针法，用一个min来保存买进的最低价，一个res来保存当天的价格减去最低价，也就是最大利润
+ *
  */
 public class BestTimetoBuyandSellStock {
 

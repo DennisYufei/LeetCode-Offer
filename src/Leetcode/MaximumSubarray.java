@@ -2,6 +2,7 @@ package Leetcode;
 
 /**
  * 给一个数组，找出最大元素和
+ * 思路：
  * @auther Dennis
  * @date 2017/12/4
  */

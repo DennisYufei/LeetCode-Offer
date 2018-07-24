@@ -18,7 +18,7 @@ package Leetcode;
  * Input: [1,3,5,6], 0
  * Output: 0
  *
- * 思想：很典型的二分查找
+ * 思路：很典型的二分查找
  * @auther Dennis
  * @date 2017/12/4
  */
