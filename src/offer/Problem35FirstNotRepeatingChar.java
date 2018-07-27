@@ -19,14 +19,14 @@ public class Problem35FirstNotRepeatingChar {
         char[] charArray = str.toCharArray();
         LinkedHashMap<Character, Integer> linkedHashMap = new LinkedHashMap<Character, Integer>();
         for (char c : charArray) {
-            if(linkedHashMap.containsKey(c)){
-                linkedHashMap.put(c,linkedHashMap.get(c)+1);
-            }else {
-                linkedHashMap.put(c,1);
+            if (linkedHashMap.containsKey(c)) {
+                linkedHashMap.put(c, linkedHashMap.get(c) + 1);
+            } else {
+                linkedHashMap.put(c, 1);
             }
         }
-        for (char c: linkedHashMap.keySet()) {
-            if(linkedHashMap.get(c) == 1){
+        for (char c : linkedHashMap.keySet()) {
+            if (linkedHashMap.get(c) == 1) {
                 return c;
             }
         }
