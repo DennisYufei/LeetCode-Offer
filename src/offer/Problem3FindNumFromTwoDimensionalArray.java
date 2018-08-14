@@ -15,7 +15,7 @@ public class Problem3FindNumFromTwoDimensionalArray {
 	
 	public static boolean find(int[][] nums, int target) {
 //		judge array is null or not 
-		if(nums == null) {
+		if(nums == null  ||  nums.length == 0  ||  ( nums.length == 1 && nums[0].length == 0 ) ) {
 			System.out.println("array error");
 			return false;
 		}
@@ -51,7 +51,8 @@ public class Problem3FindNumFromTwoDimensionalArray {
                 		{4, 7, 10, 13},  
                 		{6, 8, 11, 15}  
                 		};
+		int [][] nums1 = new int[][]{};
 		int target = 7;
-		System.out.println(find(nums, target));
+		System.out.println(find(nums1, target));
 	}
 }
