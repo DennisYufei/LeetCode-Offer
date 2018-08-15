@@ -7,7 +7,6 @@ package offer;
  *
  * @auther Dennis
  * @date 2017/12/15
- * <p/>
  * 思想：假设需要查找的数字为x，首先选取数组中右上角的数字。如果该数字等于x，查找过程结束;
  * 如果该数字大于x，剔除这个数字所在的列;如果该数字小于x，剔除这个数字所在的行。
  * 这样每一步都可以缩小查找的范围，直到找到要查找的数字，或者查找范围为空。
@@ -16,14 +15,14 @@ public class Problem3FindNumFromTwoDimensionalArray {
 
     public static boolean find(int[][] nums, int target) {
 //		judge array is null or not 
-        if (nums == null || nums.length <=1 || nums[0].length == 0) {
+        if (nums == null || nums.length <= 1 || nums[0].length == 0) {
             System.out.println("array error");
             return false;
         }
 
 //		define array’s row and colomn
         int rows = nums.length;
-        int cols = nums[1].length;
+        int cols = nums[0].length;
 
 //		define origin row and colomn
         int row = 0;
@@ -52,6 +51,7 @@ public class Problem3FindNumFromTwoDimensionalArray {
         };
         int[][] nums1 = new int[][]{};
         int target = 7;
+        System.out.println(find(nums, target));
         System.out.println(find(nums1, target));
     }
 }
