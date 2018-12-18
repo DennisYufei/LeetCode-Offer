@@ -12,7 +12,12 @@ import java.util.Map;
  */
 public class TwoSum {
 
-    //蛮力法，算法复杂度为O(n²)，空间复杂度为O(1)
+    /**
+     * 蛮力法，算法复杂度为O(n²)，空间复杂度为O(1)
+     * @param numbers 输入数组
+     * @param target 目标数
+     * @return int[]
+     */
     public int[] twoSum(int numbers[], int target) {
         if (numbers.length == 0) {
             throw new IllegalArgumentException("请输入正确数组");
@@ -31,8 +36,13 @@ public class TwoSum {
         return result;
     }
 
-    //2、用空间换取时间：hashmap方法，先用一个map把数组内的元素都put进去，然后与target减去的进行对比
-    //   用元素作为key，索引为value，时间复杂度为O(n)，空间复杂度为O(n)
+    /**
+     * 用空间换取时间：hashmap方法，先用一个map把数组内的元素都put进去，然后与target减去的进行对比用元素作为key，
+     * 索引为value，时间复杂度为O(n)，空间复杂度为O(n)
+     * @param numbers 输入数组
+     * @param target 目标数
+     * @return int[]
+     */
     public  int[] twoSum2(int[] numbers, int target) {
         if (numbers.length == 0) {
             throw new IllegalArgumentException("请输入正确数组");
