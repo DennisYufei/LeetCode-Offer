@@ -8,7 +8,7 @@ import java.util.Map;
  * Given nums = [2, 7, 11, 15], target = 9,Because nums[0] + nums[1] = 2 + 7 = 9,return [0, 1].
  * 给定一个数组和target，如果数组里的两个数相加等于target，则返回这两个数的索引
  *
- * Created by Dennis on 2018/12/18.
+ * Created by Dennis on 2018/12/17.
  */
 public class TwoSum {
 
