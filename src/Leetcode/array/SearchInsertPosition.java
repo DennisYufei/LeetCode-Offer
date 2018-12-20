@@ -1,26 +1,25 @@
-package Leetcode;
+package Leetcode.array;
 
 /**
  * 给一个排好序的数组和一个target，如果数组中有等于target则返回索引，如果没有则返回应该插入位置的索引
  * Example 1:
  * Input: [1,3,5,6], 5
  * Output: 2
- * <p/>
+ *
  * Example 2:
  * Input: [1,3,5,6], 2
  * Output: 1
- * <p/>
+ *
  * Example 3:
  * Input: [1,3,5,6], 7
  * Output: 4
- * <p/>
+ *
  * Example 4:
  * Input: [1,3,5,6], 0
  * Output: 0
  *
  * 思路：很典型的二分查找
- * @auther Dennis
- * @date 2017/12/4
+ * Created by Dennis on 2018/12/20.
  */
 public class SearchInsertPosition {
 
