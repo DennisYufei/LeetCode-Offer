@@ -1,15 +1,17 @@
-package Leetcode;
+package Leetcode.array;
 
 /**
  * 给一个数组（首位不为0）加上一个数，返回这个素数组
- * 思路：需要考虑进位，如果加到数组第一个元素还需要进位则需要在第一个位置也就是a[0]位置加上1
- * @auther Dennis
- * @date 2017/12/5
- * <p/>
  *
+ * Created by Dennis on 2018/12/24.
  */
 public class PlusOne {
 
+    /**
+     * 思路：需要考虑进位，如果加到数组第一个元素还需要进位则需要在第一个位置也就是a[0]位置加上1
+     * @param nums 输入数组
+     * @return int[]
+     */
     public static int[] plusOne(int[] nums) {
         int n = nums.length;
         for (int i = n - 1; i >= 0; i--) {
@@ -19,9 +21,9 @@ public class PlusOne {
             }else
                 nums[i] = 0;
         }
-        int [] nums1 = new int[n+1];
-        nums1[0] = 1;
-        return nums1;
+        int [] newNums = new int[n+1];
+        newNums[0] = 1;
+        return newNums;
     }
 
     public static void main(String[] args) {

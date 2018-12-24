@@ -2,13 +2,13 @@ package Leetcode.array;
 
 /**
  * 给定一个数组和一个值，删除数组中该有和该值相等的元素，并返回新长度。要求空间复杂度为O(1)
- * <p/>
+ *
  * Created by Dennis on 2018/12/19.
  */
 public class RemoveElement {
 
     /**
-     * 双指针法1，时间复杂度为O(n)，空间复杂度为O(1)
+     * 双指针法，时间复杂度为O(n)，空间复杂度为O(1)
      *
      * @param nums 输入数组
      * @param val  目标值
@@ -16,7 +16,7 @@ public class RemoveElement {
      */
     public static int remove(int[] nums, int val) {
         if (nums.length == 0) {
-            return 0;
+            throw new IllegalArgumentException("请输入正确数组");
         }
         int i = 0;
         for (int j = 0; j < nums.length; j++) {

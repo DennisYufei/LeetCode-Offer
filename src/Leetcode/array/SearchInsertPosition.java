@@ -18,14 +18,19 @@ package Leetcode.array;
  * Input: [1,3,5,6], 0
  * Output: 0
  *
- * 思路：很典型的二分查找
  * Created by Dennis on 2018/12/20.
  */
 public class SearchInsertPosition {
 
+    /**
+     *  很典型的二分查找 ，时间复杂度为O(n)，空间复杂度为O(1)
+     * @param nums 输入数组
+     * @param target 目标位置
+     * @return int
+     */
     public static int Sip(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
-            return 0;
+            throw new IllegalArgumentException("请输入正确数组");
         }
         int l = 0;
         int r = nums.length - 1;

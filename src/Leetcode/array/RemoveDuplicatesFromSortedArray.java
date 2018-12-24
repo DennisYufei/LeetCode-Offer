@@ -12,13 +12,13 @@ package Leetcode.array;
 public class RemoveDuplicatesFromSortedArray {
 
     /**
-     * 思路：因为不能用额外空间，所以不能用hashmap，采用快慢指针
+     * 思路：因为不能用额外空间，所以不能用hashmap，采用快慢指针，时间复杂度为O(n),空间复杂度为O(1)
      * @param nums 输入数组
      * @return int
      */
     public static int removeDup(int[] nums) {
         if (nums.length == 0) {
-            return 0;
+            throw new IllegalArgumentException("请输入正确数组");
         }
         int i = 0;
         System.out.print(nums[i]+" ");
