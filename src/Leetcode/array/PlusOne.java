@@ -1,7 +1,7 @@
 package Leetcode.array;
 
 /**
- * 给一个数组（首位不为0）加上一个数，返回这个素数组
+ * 给一个数组（首位不为0）加上一个数，返回这个数组
  *
  * Created by Dennis on 2018/12/24.
  */
