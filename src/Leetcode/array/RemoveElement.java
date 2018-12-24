@@ -16,7 +16,7 @@ public class RemoveElement {
      */
     public static int remove(int[] nums, int val) {
         if (nums.length == 0) {
-            throw new IllegalArgumentException("请输入正确数组");
+            return 0;
         }
         int i = 0;
         for (int j = 0; j < nums.length; j++) {
