@@ -1,4 +1,4 @@
-package Leetcode.array;
+package Leetcode.easy;
 
 /**
  * 给定一个排序数组，删除重复的位置，使每个元素只出现一次，并返回新的长度。不要为另一个数组分配额外的空间，

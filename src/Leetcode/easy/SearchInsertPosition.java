@@ -1,4 +1,4 @@
-package Leetcode.array;
+package Leetcode.easy;
 
 /**
  * 给一个排好序的数组和一个target，如果数组中有等于target则返回索引，如果没有则返回应该插入位置的索引

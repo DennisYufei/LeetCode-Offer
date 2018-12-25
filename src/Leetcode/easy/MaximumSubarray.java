@@ -1,4 +1,4 @@
-package Leetcode.array;
+package Leetcode.easy;
 
 /**
  * 给一个数组，找出最大元素和

@@ -1,4 +1,4 @@
-package Leetcode.array;
+package Leetcode.easy;
 
 /**
  * 给一个数组（首位不为0）加上一个数，返回这个数组

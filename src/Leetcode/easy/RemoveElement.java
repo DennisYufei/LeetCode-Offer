@@ -1,4 +1,4 @@
-package Leetcode.array;
+package Leetcode.easy;
 
 /**
  * 给定一个数组和一个值，删除数组中该有和该值相等的元素，并返回新长度。要求空间复杂度为O(1)
