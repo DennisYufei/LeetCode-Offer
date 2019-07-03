@@ -4,7 +4,7 @@ package Leetcode;
  * Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
  * 将数组2merge到数组1中，数组1有足够的长度
  * 思路：从num1的尾部开始往前进行插入，这样就不用每个元素都移动了,时间复杂度O(m+n),空间复杂度O(1)
- * @auther Dennis
+ * @author Dennis
  * @date 2017/12/12
  *
  */
