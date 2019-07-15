@@ -3,7 +3,7 @@ package offer;
 /**
  * 面试题9：菲波那切数列
  * 思路：从下到上计算，根据f0和f1算出f2，f1,f2算出f3，依次类推，不用递归效率会高出很多
- * @auther Dennis
+ * @author Dennis
  * @date 2018/4/9
  */
 public class Problem9Fibonacci {

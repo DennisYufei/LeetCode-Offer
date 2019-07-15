@@ -7,7 +7,7 @@ package offer;
  * 数字，一个是出现的次数，只需要遍历一次，如果下一个数字和之前保存的数相同，则次数+1，否则-1，因为要找的数字出现的次数比
  * 未出现的数字次数还多，所以要找的数字是最后一次把次数设为1时对应的数字。O(n)
  *
- * @auther Dennis
+ * @author Dennis
  * @date 2018/7/23
  */
 public class Problem29MoreThanHalfNum {

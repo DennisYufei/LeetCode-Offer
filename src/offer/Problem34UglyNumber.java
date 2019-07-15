@@ -8,7 +8,7 @@ import java.util.List;
  * 思路：1、可以直接判断是不是丑数连续除2,3,5如果最后是1则为丑数，不管怎样都需要大量除法运算
  * 2、空间换时间，创建一个数组，里面的数字是排好序的丑数，每个丑数都是前面的丑数乘以2,3,5得到的
  *
- * @auther Dennis
+ * @author Dennis
  * @date 2018/7/24
  */
 public class Problem34UglyNumber {

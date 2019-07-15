@@ -6,7 +6,7 @@ package offer;
  * 2、指数为负数时，注意为倒数
  * 3、计算机中判断相等时考虑精度的问题，自己定义equals方法
  *
- * @auther Dennis
+ * @author Dennis
  * @date 2018/4/15
  */
 public class Problem11Power {

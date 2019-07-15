@@ -3,7 +3,7 @@ package offer;
 /**
  * 调整数组顺序使得奇数放在偶数前面，双指针法,一个指针指向头一个指针指向末尾，然后奇数和偶数对换位置
  *
- * @auther Dennis
+ * @author Dennis
  * @date 2018/4/16
  */
 public class Problem14ReorderOddEven {

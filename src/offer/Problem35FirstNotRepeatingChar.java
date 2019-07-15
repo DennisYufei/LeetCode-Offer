@@ -7,7 +7,7 @@ import java.util.LinkedHashMap;
  * 思路：用哈希结构的集合去处理，linkedHashmap，String作为键，int作为值，当遇到相同的时候，int值+1，
  * 最后返回的值就是int为1时的字符
  *
- * @auther Dennis
+ * @author Dennis
  * @date 2018/7/25
  */
 public class Problem35FirstNotRepeatingChar {

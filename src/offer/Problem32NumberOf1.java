@@ -4,7 +4,7 @@ package offer;
  * 面试题32：从1到n整数中1出现的次数，如1--12中包含1 的有1，10,11,12，一共出现了5次
  * 思路：累加1到n中每个整数中1出现的次数，对10求余判断整数的个位数字是不是1，如果大于10就先除以10后再判断 O(nlogn)
  *
- * @auther Dennis
+ * @author Dennis
  * @date 2018/7/24
  */
 public class Problem32NumberOf1 {

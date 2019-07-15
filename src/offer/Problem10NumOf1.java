@@ -7,7 +7,7 @@ package offer;
  *      有多少个1就可以进行多少次这样的操作，所以有多少个1就循环多少次。如果直接和1做与运算，那么32位的数就要循环32次，这种方法
  *      不是最优的。
  *
- * @auther Dennis
+ * @author Dennis
  * @date 2018/4/9
  */
 public class Problem10NumOf1 {

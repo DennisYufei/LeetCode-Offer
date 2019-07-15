@@ -4,7 +4,7 @@ package offer;
  * 面试题47：不用加减乘除做加法
  * 思路：
  *
- * @auther Dennis
+ * @author Dennis
  * @date 2018/7/27
  */
 public class Problem47Add {

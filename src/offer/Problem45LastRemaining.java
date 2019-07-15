@@ -4,7 +4,7 @@ package offer;
  * 面试题45：约瑟夫环问题
  * 递推公式：last = (last+m) % i
  *
- * @auther Dennis
+ * @author Dennis
  * @date 2018/7/27
  */
 public class Problem45LastRemaining {
