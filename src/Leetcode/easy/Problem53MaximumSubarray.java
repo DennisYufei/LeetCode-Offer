@@ -5,7 +5,7 @@ package Leetcode.easy;
  *
  * Created by Dennis on 2018/12/24.
  */
-public class MaximumSubarray {
+public class Problem53MaximumSubarray {
 
     /**
      * 思路：动态规划，定义一个全局变量和局部变量，时间复杂度为O(n),空间复杂度为O(1)

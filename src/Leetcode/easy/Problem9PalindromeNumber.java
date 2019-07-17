@@ -21,7 +21,7 @@ package Leetcode.easy;
  * <p/>
  * Created by Dennis on 2018/12/26.
  */
-public class PalindromeNumber {
+public class Problem9PalindromeNumber {
 
     /**
      * 直接数学方法判断，如果需要考虑溢出情况则加入溢出判断

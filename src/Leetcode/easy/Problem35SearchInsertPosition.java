@@ -20,7 +20,7 @@ package Leetcode.easy;
  *
  * Created by Dennis on 2018/12/20.
  */
-public class SearchInsertPosition {
+public class Problem35SearchInsertPosition {
 
     /**
      *  很典型的二分查找 ，时间复杂度为O(n)，空间复杂度为O(1)

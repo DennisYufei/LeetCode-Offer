@@ -17,7 +17,7 @@ package Leetcode.easy;
 
  * Created by Administrator on 2018/12/25.
  */
-public class ReverseInteger {
+public class Problem7ReverseInteger {
 
     /**
      * 思路：关键点是如何判断溢出，每次计算新的结果时，再用逆运算判断与上一次循环的结果是否相同，不同就溢出

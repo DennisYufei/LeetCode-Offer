@@ -15,7 +15,7 @@ package Leetcode.easy;
  *
  * Created by Dennis on 2018/12/28.
  */
-public class LongestCommonPrefix {
+public class Problem14LongestCommonPrefix {
 
     /**
      * 思路：因为是查找相同字符串的前缀，则运用String类中的indexOf(str)方法，

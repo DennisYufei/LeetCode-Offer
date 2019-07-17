@@ -34,7 +34,7 @@ import java.util.Stack;
  *  
  * Created by Dennis on 2018/12/28.
  */
-public class ValidParentheses {
+public class Problem20ValidParentheses {
     /**
      * 思路：用Stack的特性
      * @param s 输入字符串

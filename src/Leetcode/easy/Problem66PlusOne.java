@@ -5,7 +5,7 @@ package Leetcode.easy;
  *
  * Created by Dennis on 2018/12/24.
  */
-public class PlusOne {
+public class Problem66PlusOne {
 
     /**
      * 思路：需要考虑进位，如果加到数组第一个元素还需要进位则需要在第一个位置也就是a[0]位置加上1

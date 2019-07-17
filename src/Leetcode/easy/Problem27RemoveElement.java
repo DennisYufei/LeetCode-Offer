@@ -5,7 +5,7 @@ package Leetcode.easy;
  *
  * Created by Dennis on 2018/12/19.
  */
-public class RemoveElement {
+public class Problem27RemoveElement {
 
     /**
      * 双指针法，时间复杂度为O(n)，空间复杂度为O(1)

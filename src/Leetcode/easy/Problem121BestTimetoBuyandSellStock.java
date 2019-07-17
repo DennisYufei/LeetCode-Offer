@@ -1,4 +1,4 @@
-package Leetcode;
+package Leetcode.easy;
 
 /**
  * 题意：最低价买进，最高价卖出，一次买入和卖出，求最大利润
@@ -8,7 +8,7 @@ package Leetcode;
  * @date 2017/12/13
  *
  */
-public class BestTimetoBuyandSellStock {
+public class Problem121BestTimetoBuyandSellStock {
 
     public static int maxProfit(int[] prices) {
         int min = Integer.MAX_VALUE;

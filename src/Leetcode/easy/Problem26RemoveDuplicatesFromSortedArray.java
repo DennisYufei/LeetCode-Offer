@@ -9,7 +9,7 @@ package Leetcode.easy;
  *
  * Created by Dennis on 2018/12/18.
  */
-public class RemoveDuplicatesFromSortedArray {
+public class Problem26RemoveDuplicatesFromSortedArray {
 
     /**
      * 思路：因为不能用额外空间，所以不能用hashmap，采用快慢指针，时间复杂度为O(n),空间复杂度为O(1)

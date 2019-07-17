@@ -1,4 +1,4 @@
-package Leetcode;
+package Leetcode.easy;
 
 /**
  * 题意：和121题不同的地方是可以多次买卖任意次，然后求多次买卖后最大利润
@@ -7,7 +7,7 @@ package Leetcode;
  * @date 2017/12/13
  *
  */
-public class BestTimetoBuyandSellStockII {
+public class Problem122BestTimetoBuyandSellStockII {
 
     public static int maxProfit(int[] prices) {
         int maxProfit = 0;

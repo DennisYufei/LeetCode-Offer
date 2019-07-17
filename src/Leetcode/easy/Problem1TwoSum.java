@@ -4,13 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * TwoSum
+ * Problem1TwoSum
  * Given nums = [2, 7, 11, 15], target = 9,Because nums[0] + nums[1] = 2 + 7 = 9,return [0, 1].
  * 给定一个数组和target，如果数组里的两个数相加等于target，则返回这两个数的索引
  *
  * Created by Dennis on 2018/12/17.
  */
-public class TwoSum {
+public class Problem1TwoSum {
 
     /**
      * 蛮力法，算法复杂度为O(n²)，空间复杂度为O(1)
@@ -65,11 +65,11 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        TwoSum twoSum = new TwoSum();
+        Problem1TwoSum problem1TwoSum = new Problem1TwoSum();
         int numbers[] = new int[]{2, 7, 11, 15};
 //        int numbers[] = new int[]{};
         int target = 9;
-        int result[] = twoSum.twoSum(numbers, target);
+        int result[] = problem1TwoSum.twoSum(numbers, target);
         for (int i : result) {
             System.out.print(result[i] + " ");
         }
