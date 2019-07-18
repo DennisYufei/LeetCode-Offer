@@ -26,16 +26,17 @@ public class Problem7ReverseInteger {
      * @return int
      */
     public static int reverse(int x) {
-        int res = 0;
+        int result = 0;
         while (x != 0) {
-            int tail = x % 10;
-            int newRes = res * 10 + tail;
-            if ((newRes - tail) / 10 != res)
+            int end = x % 10;
+            int temp = result * 10 + end;
+            if ((temp - end) / 10 != result) {
                 return 0;
-            res = newRes;
+            }
+            result = temp;
             x = x / 10;
         }
-        return res;
+        return result;
     }
 
     public static void main(String[] args) {
