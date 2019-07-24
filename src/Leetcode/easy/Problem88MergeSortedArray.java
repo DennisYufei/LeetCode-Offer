@@ -10,48 +10,48 @@ package Leetcode.easy;
  */
 public class Problem88MergeSortedArray {
 
-    public static void merge(int A[], int m, int B[], int n) {
+    public static void merge(int[] nums1, int m, int[] nums2, int n) {
         if (n == 0) {
             return;
         }
         if (m == 0 && n != 0) {
             for (int i = 0; i < n; i++) {
-                A[i] = B[i];
+                nums1[i] = nums2[i];
             }
         }
         int i = m - 1;
         int j = n - 1;
         int k = m + n - 1;
         while (i >= 0 && j >= 0) {    //分别从数A和B最后的元素开始向前比较
-            if (A[i] > B[j]) {
-                A[k] = A[i];
+            if (nums1[i] > nums2[j]) {
+                nums1[k] = nums1[i];
                 i--;
             } else {
-                A[k] = B[j];
+                nums1[k] = nums2[j];
                 j--;
             }
             k--;
         }
         while (i >= 0) {
-            A[k] = A[i];
+            nums1[k] = nums1[i];
             i--;
             k--;
         }
         while (j >= 0) {
-            A[k] = B[j];
+            nums1[k] = nums2[j];
             j--;
             k--;
         }
     }
 
     public static void main(String[] args) {
-        int[] A = new int[]{3, 4, 6, 8, 9, 0, 0, 0, 0};
-        int[] B = new int[]{2, 4, 5, 7};
+        int[] nums1 = new int[]{3, 4, 6, 8, 9, 0, 0, 0, 0};
+        int[] nums2 = new int[]{2, 4, 5, 7};
         int m = 5;
         int n = 4;
-        merge(A, m, B, n);
-        for (int i = 0; i < A.length; i++) {
-            System.out.print(A[i] + " ");
+        merge(nums1, m, nums2, n);
+        for (int i = 0; i < nums1.length; i++) {
+            System.out.print(nums1[i] + " ");
         }
     }
 
